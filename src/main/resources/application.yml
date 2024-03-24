@@ -1,0 +1,5 @@
+spring.application.name=supplyfellowchatService
+# OpenAI API
+openai.api-key=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
+openai.engine=gpt-4-1106-preview
+openai.max-tokens=100
