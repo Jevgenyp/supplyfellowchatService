@@ -1,2 +1,14 @@
-package jpi.supplyfellow.supplyfellowchatservice.config;public class AppConfig {
+package jpi.supplyfellow.supplyfellowchatservice.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.client.RestTemplate;
+
+@Configuration
+public class AppConfig {
+
+    @Bean
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
 }

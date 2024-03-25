@@ -1,5 +1,16 @@
-spring.application.name=supplyfellowchatService
-# OpenAI API
-openai.api-key=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
-openai.engine=gpt-4-1106-preview
-openai.max-tokens=100
+server:
+  port: 8081
+
+spring:
+  application:
+    name: supplyfellowchatService
+  ai:
+    openai:
+      api-key: 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
+      engine-name: gpt-4-turbo-preview
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
