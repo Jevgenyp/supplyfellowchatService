@@ -6,7 +6,7 @@ spring:
     name: supplyfellowchatService
   ai:
     openai:
-      api-key:
+      api-key: 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
       engine-name: gpt-4-turbo-preview
 
 eureka:
